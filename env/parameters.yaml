@@ -1,0 +1,11 @@
+adminUser:
+  password: vault:beetlebronze/adminUser:password
+  username: admin
+enableDocker: false
+pipelineUser:
+  email: arcalos-admin@googlegroups.com
+  token: vault:beetlebronze/pipelineUser:token
+  username: arcalos-bot
+prow:
+  hmacToken: vault:beetlebronze/prow:hmacToken
+segmentWriteKey: vault:beetlebronze:segmentWriteKey
